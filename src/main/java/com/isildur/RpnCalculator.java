@@ -31,7 +31,6 @@ public class RpnCalculator {
             }
         }
 
-        System.out.println(stack);
         return Double.toString(stack.pop());
     }
 
